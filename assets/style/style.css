@@ -1,0 +1,340 @@
+
+
+/* INDEX */
+.background{
+    background-color: #BB2222;
+}
+
+.bckground{
+    background-color: #BB2222;
+}
+
+.background3{
+    background-color: #BB2222;
+}
+
+.background4{
+    background-color: black;
+}
+
+
+.background-img{
+    position: absolute;
+    width:100%;
+    height: 900px;
+    left: 0px;  
+    top: 0px;
+    bottom: 10px;
+    text-align: left;
+}
+
+.logo img{
+    position: absolute;
+    margin-left: 30px;
+    height: 60px;
+    width: 55px;
+    top: 6px;
+}
+
+
+.about{
+    color: white;
+    padding: 30px;
+    margin-left: 14%;
+    position: absolute;
+}
+
+
+.blog{
+    color: white;
+    padding: 30px;
+    margin-left: 9%;
+    position: absolute;
+}
+
+
+.contact{
+    color:white;
+    padding: 30px;
+    margin-left: 19%;
+    position: absolute;
+}
+
+.title1{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 45px;
+    font-size: 140%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+
+.game{
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-size: 150%;
+    position: absolute; 
+    color: white;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.motto{
+    margin-top: 370px;
+    margin-left: 50px;
+    font-size: 80%;
+    position: absolute; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.navbar a{
+    color: black;
+
+}
+
+.newestupdate1{
+    position: absolute;
+    color: white;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-right: 900px;
+}
+
+
+.update1{
+    position: absolute;
+    color: white;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 130px;
+    margin-left: 550px;
+    margin-right: 500px;
+}
+
+
+.update2{
+    position: absolute;
+    text-align: justify;
+    margin-top: 130px;
+    margin-left: 950px;
+    margin-right: 900px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.link{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+ 
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+
+.link1{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   
+  }
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+  
+
+  .link2{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 38px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+  
+  a:hover, a:active {
+    background-color: red;
+  }
+  
+
+.title{
+    color: white;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 110%;
+}
+
+
+.input{
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 140%;
+    line-height: 1.3;
+}
+
+
+.end img{
+    position: absolute;
+    height: 75px;
+    width: 70px;
+    margin-left: 1175px;
+    margin-top: 19px;
+   
+}
+
+
+.blog1{
+    color:white;
+    margin-left: 88%;
+    margin-top: 25px;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+
+.about1{
+    color:white;
+    margin-left: 88%;
+    margin-top: 45px;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+.contact1{
+    color:white;
+    margin-left: 88%;
+    margin-top: 65px;
+    position: absolute;
+    margin-bottom: 30px;
+}
+
+
+.article{
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+       
+    }
+    h1 {
+        color: white; 
+       
+    
+        text-align: center;
+    }
+    
+    p {
+        line-height: 1.6;
+    }
+
+
+
+
+/* ABOUT */
+.banner {
+    background-color: #BB2222; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+}
+
+.col-8{
+    color: white;
+}
+
+.col-12 h2{
+    color: white;
+}
+
+.col-9{
+    color: black;
+}
+
+
+
+
+
+
+/* BLOG */
+.rounded-image img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;}
+
+.blog-info{
+    color: white;
+    text-align: justify;}
+
+
+
+
+.footer-end{
+    margin-top: 20px;
+}
+
+
+    
+
+
+
+
+
+
+
+
+/* CONTACT */
+.contact-form label, 
+.contact-form input, 
+.contact-form select,
+.contact-form textarea{
+    display: block;
+    width: 100%;
+}
+
+.contact-form label{
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    border: 1px solid #22333B;
+    padding: .5em;
+    border-radius: 8px;
+}
+
+.contact-form :invalid{
+    border-color:#ff0000;
+    color:#ff0000;
+}
+
+

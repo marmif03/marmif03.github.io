@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/grid.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Contact Us</h1>
+        <p>+356 79689690 | www.readyornot.com</p>
+
+    </div>
+    <div class="col-9">
+        <main>
+            
+            <form 
+            action="mailto:admin@gamesnet.com" method="post"
+            enctype="text/plain"
+            class="contact-form">
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            
+                            <label for="first-name-input">
+                                First Name
+                            </label>
+                            <input type="text" id="first-name-input" name="first-name" placeholder="Mario" required>
+                            
+                        </div>
+                        <div class="col-6">
+                            
+                            <label for="last-name-input">
+                                Last Name
+                            </label>
+                            <input type="text" id="last-name-input" name="last-name" placeholder="Farrugia" required>
+                            
+                        </div>
+                    </div>
+                    
+                  
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="email-address-input">
+                                Email Address
+                            </label>
+                            <input type="email" id="email-address-input" name="email-address" placeholder="readyornot@net.com" required>
+                        </div>
+                    </div>
+                    
+                   
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="topic-dropdown">
+                                Topic
+                            </label>
+                            <select name="topic" id="topic-dropdown" required>
+                                <option value=""></option>
+                                <option value="tech-support">
+                                    Technical Support
+                                </option>
+                                <option value="submit-review">
+                                    Submit Game Review
+                                </option>
+                                <option value="problem">
+                                    Website Problem
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                  
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="subject-input">
+                                Subject
+                            </label>
+                            <input type="text" id="subject-input" name="subject" >
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="">
+                                Message
+                            </label>
+                            <textarea 
+                            name="message" id="message-input" 
+                            cols="30" rows="5" required>
+                        </textarea>
+                    </div>
+                </div>
+
+                 <!-- Form Buttons -->
+                 <div class="row">
+                    <div class="col-6">
+                        <button type="submit" class="button">
+                            Send
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button type="reset" class="button clear">
+                            Cancel
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+    </main>
+    </div>
+
+</body>
+</html>
