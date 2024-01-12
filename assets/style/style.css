@@ -18,10 +18,12 @@
 }
 
 
+
+
 .background-img{
     position: absolute;
     width:100%;
-    height: 900px;
+   
     left: 0px;  
     top: 0px;
     bottom: 10px;
@@ -62,9 +64,8 @@
 
 .title1{
     color: white;
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 45px;
+
+ 
     font-size: 140%;
     font-family: Georgia, 'Times New Roman', Times, serif;
    
@@ -76,17 +77,15 @@
     margin-left: 30px;
     margin-right: 50px;
     font-size: 150%;
-    position: absolute; 
+
     color: white;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .motto{
-    margin-top: 370px;
     margin-left: 50px;
     font-size: 80%;
-    position: absolute; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -96,38 +95,24 @@
 
 }
 
-.newestupdate1{
-    position: absolute;
-    color: white;
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 120px;
-    margin-left: 80px;
-    margin-right: 900px;
+
+.background2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
 }
 
 
-.update1{
-    position: absolute;
+.update{
     color: white;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 130px;
-    margin-left: 550px;
-    margin-right: 500px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
-.update2{
-    position: absolute;
-    text-align: justify;
-    margin-top: 130px;
-    margin-left: 950px;
-    margin-right: 900px;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
 
 .link{
   background-color: #f44336;
@@ -141,9 +126,7 @@
  
 }
 
-a:hover, a:active {
-  background-color: red;
-}
+
 
 
 .link1{
@@ -158,9 +141,7 @@ a:hover, a:active {
    
   }
   
-  a:hover, a:active {
-    background-color: red;
-  }
+ 
   
 
   .link2{
@@ -175,20 +156,19 @@ a:hover, a:active {
 }
 
   
-  a:hover, a:active {
-    background-color: red;
-  }
+ 
   
 
 .title{
     color: white;
-    position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 30px;
-    margin-left: 40px;
-    font-size: 110%;
+    font-size: 3rem;
 }
 
+.requirements{
+    width: 100%;
+    min-height:50vh;
+}
 
 .input{
     color: white;
@@ -202,39 +182,23 @@ a:hover, a:active {
 }
 
 
+
 .end img{
-    position: absolute;
-    height: 75px;
-    width: 70px;
-    margin-left: 1175px;
-    margin-top: 19px;
-   
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
 }
 
+.end{
+    display: flex;
+    justify-content: right;
+    margin-right: 2%;
+}
 
 .blog1{
     color:white;
-    margin-left: 88%;
-    margin-top: 25px;
-    position: absolute;
-    margin-bottom: 30px;
-}
-
-
-.about1{
-    color:white;
-    margin-left: 88%;
-    margin-top: 45px;
-    position: absolute;
-    margin-bottom: 30px;
-}
-
-.contact1{
-    color:white;
-    margin-left: 88%;
-    margin-top: 65px;
-    position: absolute;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -294,9 +258,6 @@ a:hover, a:active {
     color: white;
     text-align: justify;}
 
-
-
-
 .footer-end{
     margin-top: 20px;
 }
@@ -337,4 +298,26 @@ a:hover, a:active {
     color:#ff0000;
 }
 
+
+.banner-home {
+    background-image: url(../images/unnamed.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height:100vh;
+}
+
+.vertical-center {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.banner-middle{
+    background-image: url(../images/Rectangle_43.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height:100vh;
+}
 
